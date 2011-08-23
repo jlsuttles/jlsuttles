@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="/stylesheets/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/stylesheets/blueprint/print.css" type="text/css" media="print"> 
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+  <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection"> 
+
+</head>
+ 
+<body>
+
+  <div class="container">
+
+  	<div class="span-24" id="header">
+      <h1>Jessica Lynn Suttles</h1>
+
+      <div class="span-8 sidebar">
+        {% include contact.html %}
+      </div>
+
+      <div class="span-15 content">
+        {% include summary.html %}
+      </div>
+  	</div>
+
+  	<div class="span-15 content">
+      {% include experience.html %}
+  	</div>
+
+  	<div class="span-8 sidebar">
+      {% include skills.html %}
+      {% include education.html %}
+  	</div>
+
+  	<div class="span-24 footer">
+      {% include contact.html %}
+  	</div>
+  </div>
+
+</body>
+</html>
