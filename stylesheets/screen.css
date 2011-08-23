@@ -9,3 +9,57 @@
 .footer {
   text-align: center;
 }
+
+.footer ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+.sidebar #contact .fn,
+.sidebar #contact .org {
+  display: none;
+}
+
+.date_duration {
+  display: block;
+  float: right;
+  font-style: italic;
+}
+
+ol.vcalendar {
+  list-style-type: none;
+}
+
+ol.vcalendar li {
+  margin-top: 20px;
+}
+
+ol.vcalendar ol.vcalendar li {
+  margin-top: 10px;
+}
+
+ol.vcalendar ol.vcalendar li ul li {
+  margin-top: 5px;
+}
+
+ul, ul.description {
+  list-style-type: none;
+}
+
+h3.org {
+  display: inline;
+}
+
+h4.project {
+  display: inline;
+  font-weight: bold;
+}
+
+span.location {
+  font-style: italic;
+}
+
+span.summary {
+  font-weight: bold;
+  font-style: italic;
+}
