@@ -1,9 +1,28 @@
+body {
+  font-size: 1em;
+  font-face: 'Helvetica Neue', Helvetica, sans-serif;
+  letter-spacing: .05em;
+  margin-top:5em;
+}
+
 .content {
   float: left;
 }
 
 .sidebar {
   float: right;
+  background: #eee;
+  font-size: .75em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+}
+
+.sidebar h2 {
+  padding-left: .5em;
+}
+
+.sidebar ul.description li {
+  margin-top: 0;
 }
 
 .footer {
@@ -22,8 +41,21 @@
 
 .date_duration {
   display: block;
-  float: right;
   font-style: italic;
+  color: grey;
+}
+
+abbr {
+  border: 0;
+}
+
+.htitle {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+ol.vcalendar ol.vcalendar .htitle {
+  font-size: 1em;
 }
 
 ol.vcalendar {
@@ -44,22 +76,4 @@ ol.vcalendar ol.vcalendar li ul li {
 
 ul, ul.description {
   list-style-type: none;
-}
-
-h3.org {
-  display: inline;
-}
-
-h4.project {
-  display: inline;
-  font-weight: bold;
-}
-
-span.location {
-  font-style: italic;
-}
-
-span.summary {
-  font-weight: bold;
-  font-style: italic;
 }
