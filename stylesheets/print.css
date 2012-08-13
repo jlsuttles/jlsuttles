@@ -1,11 +1,6 @@
 img { display: none; }
 
-.skills {
-  width: 40%;
-  float: left;
-}
-
-.education {
-  width: 40%;
-  float: left;
+.skills, .education {
+  width: 50%;
+  display: inline;
 }
