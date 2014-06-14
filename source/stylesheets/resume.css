@@ -7,7 +7,7 @@
 }
 
 body {
-    font:9pt "Times New Roman", Times, Serif;
+    font:9.5pt "Times New Roman", Times, Serif;
 }
 
 @media only screen and (min-device-width: 320px) {
@@ -35,10 +35,6 @@ body {
 }
 
 h1 {
-  display: inline;
-}
-
-ul {
   display: inline;
 }
 
