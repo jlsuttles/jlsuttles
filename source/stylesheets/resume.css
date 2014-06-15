@@ -10,7 +10,7 @@ body {
     font:9.5pt "Times New Roman", Times, Serif;
 }
 
-@media only screen and (min-device-width: 320px) {
+@media only screen and (min-device-width: 480px) {
   body {
     background-color:#666;
   }
@@ -83,4 +83,8 @@ ul#contact {
 
 .description {
   margin-left: 1.5in;
+}
+
+a {
+  color: #000;
 }
