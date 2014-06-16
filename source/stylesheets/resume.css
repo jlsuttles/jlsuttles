@@ -7,7 +7,7 @@
 }
 
 body {
-    font:9.5pt "Times New Roman", Times, Serif;
+    font:9pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (min-device-width: 480px) {
@@ -40,7 +40,7 @@ h1 {
 
 .date_duration {
   display: inline-block;
-  width: 1.25in;
+  width: 1.5in;
 }
 
 .htitle {
@@ -85,6 +85,16 @@ ul#contact {
   margin-left: 1.5in;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 85, 128);
+}
+
 a {
-  color: #000;
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+.org {
+  font-weight: bold;
 }
