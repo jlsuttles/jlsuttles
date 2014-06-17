@@ -7,10 +7,61 @@
 }
 
 body {
-    font:9pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: 9pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media only screen and (min-device-width: 480px) {
+body.cover-letter p {
+    font-size: 11pt;
+    line-height: 13pt;
+    text-indent: .5in;
+}
+
+body.cover-letter p.no-indent {
+    text-indent: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 85, 128);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+h1 {
+  display: inline;
+}
+
+ol, ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+}
+
+#contact li,
+#technical-skills li {
+  padding-right: 0.1in;
+}
+
+.date-duration {
+  display: inline-block;
+  width: 1.4in;
+}
+
+.p-name {
+  display: inline;
+}
+
+.p-summary {
+  margin-left: 1.6in;
+}
+
+@media only screen and (min-width: 620px) {
   body {
     background-color:#666;
   }
@@ -32,69 +83,4 @@ body {
         height:9.45in;
         margin-bottom:-5pt;
     }
-}
-
-h1 {
-  display: inline;
-}
-
-.date_duration {
-  display: inline-block;
-  width: 1.5in;
-}
-
-.htitle {
-  display: inline;
-  font-weight: normal;
-}
-
-ol, ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-li {
-  display: inline;
-}
-
-h3 .summary {
-  font-weight: bold;
-}
-
-ul#contact {
-  list-style: none;
-  padding-left: 0;
-}
-
-#contact li {
-  display: inline;
-  padding-right: 0.1in;
-}
-
-#technical-skills ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-#technical-skills li {
-  display: inline;
-  padding-right: 0.1in;
-}
-
-.description {
-  margin-left: 1.5in;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: rgb(0, 85, 128);
-}
-
-a {
-  text-decoration: none;
-  color: rgb(0, 136, 204);
-}
-
-.org {
-  font-weight: bold;
 }

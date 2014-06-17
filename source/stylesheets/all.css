@@ -1,0 +1,54 @@
+body {
+    font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 136, 204);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(0, 85, 128);
+}
+
+.h-card {
+  margin: 40px auto;
+  width: 300px;
+}
+
+.avatar img {
+  width: 300px;
+}
+
+.about {
+  width: 300px;
+}
+
+.p-name, .p-nickname {
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 620px) {
+  .h-card {
+    width: 620px;
+  }
+
+  .avatar {
+    float: left;
+  }
+
+  .about {
+    float: left;
+    margin-left: 20px;
+  }
+}
